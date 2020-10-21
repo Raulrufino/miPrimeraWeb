@@ -1,4 +1,52 @@
 /* *********************************** */
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
+body{
+    font-family: sans-serif;
+}
 
+#container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.container__header{
+  grid-column: 1/2;
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr 10%;
+}
+.header__nav{
+    grid-column: 3/4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+.nav__a__menu{
+    padding: 10px;
+    width: 100px;
+    height: 20px;
+    background-color: rgba(220, 217, 223, 0.274);
+    text-decoration: none;
+    color: grey;
+    border-radius:0px;
+    text-align: center;
+    
+}
+.nav__a__menu:hover{
+    padding: 10px;
+    background-color: rgba(188, 185, 190, 0.274);
+    border: 1px snow rgb(219, 209, 209);
+    transition: 1s;
+    border-radius:10px;
+    z-index: 2;
+    
+    
+}
+.header_picture{
+    grid-column: 1/5;
+    
+    
+   
+   }
