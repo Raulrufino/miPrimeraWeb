@@ -28,25 +28,30 @@
   </head>
   <body>
     <div id="container">
-    <!-- *** ESTRUCTURA SEMÁNTICA *** -->
-    <!-- Header (encabezado de la página, zona superior) -->
-    <header>
-      <!-- nav (el navegador de toda la web) -->
-      <nav>
-        <a href="" class="link1">link1</a>
-        <a href="" class="link2">link2</a>
-        <a href="" class="link3">link3</a>
-        <a href="" class="link4">link4</a>
+    <header class="container__header">
+    
+      <nav class="container__header__nav">
+        <a href="" class="link1">Index</a>
+        <a href="proyectos.html" class="link2">Proyectos</a>
+        <a href="proyectos.html" class="link3">Formulario</a>
+      
       </nav>
+      <picture class="header__picture">
+        <source
+        srcset="img/desktop/1366x768/mallorca@1x.jpg,
+                img/desktop/1366x768/mallorca@2x.jpg"
+                
+        media="(min-width:1200px)"
+      />
+
+      <!-- Imagen de respaldo -->
+      <img src="" alt="banner" />
+   
+      </picture>
+
     </header>
-    <!-- Main (centro de la página, zona central) -->
-    <main>
-      <!-- section y article (posibilidades dentro de main) -->
-    </main>
-    <!-- Footer (final de la página, zona inferior) -->
-    <footer>
-      <h6>&copy;Copyright</h6>
-    </footer>
+
+  
     </div>
     <!-- *** Google Analytics *** -->
     <script src="https://www.google-analytics.com/analytics.js" async></script>
