@@ -27,7 +27,7 @@ body{
     padding: 10px;
     width: 100px;
     height: 20px;
-    background-color: rgba(220, 217, 223, 0.274);
+    
     text-decoration: none;
     color: grey;
     border-radius:0px;
@@ -46,7 +46,7 @@ body{
 }
 .header_picture{
     grid-column: 1/5;
-    
-    
-   
-   }
+ }
+ .header_logotipo{
+     grid-column: 2/3
+ }
